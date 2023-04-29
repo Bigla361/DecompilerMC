@@ -630,7 +630,7 @@ def main():
     if use_flags:
         decompiler = args.decompiler
     else:
-        decompiler = input("Please input you decompiler choice: fernflower or cfr (CFR/f): ")
+        decompiler = input("Please input your decompiler choice: fernflower or cfr (CFR/f): ")
     decompiler = decompiler.lower() if decompiler.lower() in ["fernflower", "cfr", "f"] else "cfr"
     if use_flags:
         version = args.mcversion
